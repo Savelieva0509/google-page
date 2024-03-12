@@ -1,8 +1,37 @@
-<form class="search-form" id="search-form">
-  <input type="text" name="searchQuery" autocomplete="off"/>
-  <button type="submit">SEARCH
-    <svg class="search__icon" width="20" height="20">
+<div class="main-container">
+  <svg class="icon-google-logo" width="400">
+    <use href="./images/symbol-defs.svg#icon-google-logo"></use>
+  </svg>
+  <form class="search-form" id="search-form">
+    <input
+      class="search-input"
+      type="text"
+      name="searchQuery"
+      autocomplete="off"
+    />
+    <svg class="search-icon" width="20" height="20">
       <use href="./images/symbol-defs.svg#icon-search"></use>
     </svg>
-  </button>
-</form>
+    <div class="button-input-wrapper">
+      <button type="button" class="button-input">
+        <svg class="button-input-icon" width="24" height="24">
+          <use href="./images/symbol-defs.svg#icon-keyboard"></use>
+        </svg>
+      </button>
+      <button type="button" class="button-input">
+        <svg class="button-input-icon" width="24" height="24">
+          <use href="./images/symbol-defs.svg#icon-microphone"></use>
+        </svg>
+      </button>
+      <button type="button" class="button-input">
+        <svg class="button-input-icon" width="24" height="24">
+          <use href="./images/symbol-defs.svg#icon-camera"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="button-search-wrapper">
+      <button type="submit" class="button-search">Пошук Google</button>
+      <button type="button" class="button-success">Мені пощастить</button>
+    </div>
+  </form>
+</div>
