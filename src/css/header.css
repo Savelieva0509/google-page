@@ -52,24 +52,23 @@
 }
 
 .header-button-menu {
- display: flex;
- align-items: center;
- justify-content: center;
- padding: 0;
-  width: 40px; 
-  height: 40px; 
-  border: none; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border: none;
   border-radius: 50%;
-  background-color: transparent; 
-  cursor: pointer; 
+  background-color: transparent;
+  cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 
-.header-button-menu:hover
- {
-background-color: rgba(60,64,67,.08);
+.header-button-menu:hover {
+  background-color: rgba(60, 64, 67, 0.08);
 }
 
 .icon-menu {
-    fill:#5f6368;
+  fill: #5f6368;
 }
