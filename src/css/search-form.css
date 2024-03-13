@@ -8,9 +8,14 @@
   position: relative;
 }
 
-.icon-google-logo {
+.icon-google-logo,
+.icon-oddity-logo {
   width: 272px;
   margin-top: 92px;
+}
+
+.hidden {
+  display: none;
 }
 
 .search-input {
