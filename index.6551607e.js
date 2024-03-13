@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",(function(){const e=document.querySelector(".button-success"),t=document.querySelector(".icon-google-logo"),o=document.querySelector(".icon-oddity-logo");e.addEventListener("click",(function(){t.classList.toggle("visible"),t.classList.toggle("hidden"),o.classList.toggle("visible"),o.classList.toggle("hidden")}))}));
+//# sourceMappingURL=index.6551607e.js.map
