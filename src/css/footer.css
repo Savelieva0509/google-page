@@ -1,5 +1,61 @@
-@import './header';
+.country-wrapper {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  background-color: #f2f2f2;
+}
 
+.country-text {
+  font-size: 15px;
+  color: #202124;
+}
 
+.info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 15px;
+}
 
+.general-list {
+  display: flex;
+}
 
+.general-item {
+  margin-right: 15px;
+}
+
+.settings-item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.settings-button {
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: 15px;
+  color: #202124;
+  cursor: pointer;
+  padding: 0;
+}
+
+.settings-button:hover,
+.settings-button:focus {
+  border-bottom: 1px solid #202124;
+}
+
+.general-link,
+.settings-link {
+  font-size: 15px;
+  color: #202124;
+}
+
+.general-link:hover,
+.general-link:focus,
+.settings-link:focus,
+.settings-link:hover {
+  text-decoration: underline;
+}
+
+.settings-list {
+  display: flex;
+}
